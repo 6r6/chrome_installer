@@ -60,7 +60,6 @@ info = {
         "os": '''platform="mac" arch="arm64e"''',
         "app": '''appid="com.google.Chrome" ap="universal"''',
     },
-        },
     "macos_intel": {
         "os": '''platform="mac" arch="x86_64h"''',
         "app": '''appid="com.google.Chrome" ap="universal"''',
