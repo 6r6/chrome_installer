@@ -56,6 +56,15 @@ info = {
         "os": '''arch="arm64"''',
         "app": '''appid="{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}" ap="arm64-canary"''',
     },
+    "macos_apple_silicon": {
+        "os": '''platform="mac" arch="arm64e"''',
+        "app": '''appid="com.google.Chrome" ap="universal"''',
+    },
+        },
+    "macos_intel": {
+        "os": '''platform="mac" arch="x86_64h"''',
+        "app": '''appid="com.google.Chrome" ap="universal"''',
+    }
 }
 
 update_url = "https://tools.google.com/service/update2"
